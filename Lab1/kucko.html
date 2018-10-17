@@ -2,17 +2,46 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="style.css">
   <meta charset="utf-8">
   <title>ZDRAJCA</title>
   <style>
+    img.kucko {
+      width: 400px;
+      height: 400px;
+      border: 1px solid black;
+    }
 
+    .b1,
+    .b2 {
+      position: absolute;
+    }
+
+    .b1 {
+      top: 50%;
+      left: 15%;
+    }
+
+    .b2 {
+      top: 50%;
+      right: 15%;
+    }
   </style>
 </head>
 
 <body>
-  <h1> BO ZAMIAST Z KOLEGAMI </h1>
-  <img src="images/zdrajca.jpg" alt="zdrajca">
-  <h2> PIJE Z MLODZIENCAMI </h2>
+  <div id="page">
+    <h1> BO ZAMIAST Z KOLEGAMI </h1>
+    <img class="kucko" src="images/zdrajca.jpg" alt="zdrajca">
+    <h2> PIJE Z MŁODZIENCAMI </h2>
+    <button class="b1">
+      POWIĘKSZ ZDRAJCĘ
+    </button>
+    <button class="b2">
+      POMNIEJSZ ZDRAJCĘ
+    </button>
+  </div>
+  <script src="rozmiar.js"></script>
 </body>
 
 </html>
