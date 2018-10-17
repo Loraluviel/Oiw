@@ -1,11 +1,12 @@
-const btn1 = document.querySelector(".b1");
-const btn2 = document.querySelector(".b2");
 const kck = document.querySelector("img.kucko");
-//var kck1 = document.getElementById('img.kucko');
 
-btn1.addEventListener('click', function () {
+function powieksz() {
+    kck.style.height = '600px';
+    kck.style.width = '600px';
+    //alert("CYCE");
+}
 
-    kck1.height = 600;
-    kck1.width = 600;
-
-});
+function pomniejsz() {
+    kck.style.height = '200px';
+    kck.style.width = '200px';
+}
