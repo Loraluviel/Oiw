@@ -1,0 +1,56 @@
+.a1 {
+    background-color: black;
+    color: aqua;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+main {
+    float: left;
+    width: 70vh;
+    /*wielkosc 70% okna przegladarki*/
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.str2 {
+    background-color: chocolate;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+ul {
+    font-style: normal;
+    font-size: 22;
+}
+
+p.p1 {
+    color: cornflowerblue;
+    background-color: tomato;
+    width: 40vh;
+}
+
+p.p2 {
+    color: darkcyan;
+    background-color: darkkhaki;
+    width: 40vh;
+}
